@@ -5,6 +5,7 @@ import time
 import traceback
 from pathlib import Path
 
+
 CHARXIV_PATH = Path(__file__).parent / "charxiv"
 sys.path.insert(0, str(CHARXIV_PATH / "src"))
 
