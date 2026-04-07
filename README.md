@@ -2,7 +2,7 @@
 
 implement an evolutionary code optimization system inspired by Google DeepMind's AlphaEvolve, apply it to optimize a Vision Language Model (VLM) inference pipeline, and compare it against manual optimization.
 
-* **VLMs**: Use Qwen3-VL-2B-Instruct and Qwen3-VL-2B-Thinking (do not swap to a larger model). 
+* **VLMs**: Use Qwen3-VL-2B-Instruct and Qwen3-VL-2B-Thinking  
 * **Benchmark**: CharXiv contains 2,323 charts from scientific papers with descriptive and reasoning questions.
 * **Mutation LLM**: Gemini Flash
 
@@ -18,4 +18,3 @@ implement an evolutionary code optimization system inspired by Google DeepMind's
   7. **`best_accuracy.py`** — best inference code optimized for accuracy. 
   8. **`best_speed.py`** — best inference code optimized for speed. Can use either model and any approach. 
   9. **`best_overall.py`** — best inference code balancing accuracy and speed. 
-  10. Any modified evaluation scripts.
