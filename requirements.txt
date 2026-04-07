@@ -1,4 +1,4 @@
-transformers>=4.37.0
+transformers>=4.37.0 or other?
 qwen-vl-utils
 torch>=2.0.0
 torchvision
