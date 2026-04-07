@@ -22,6 +22,7 @@ def _get_model():
     return _model, _processor
 
 
+
 def vlm_inference(image_path, question="Describe this image in detail."):
     model, processor = _get_model()
     messages = [{"role": "user", "content": [
